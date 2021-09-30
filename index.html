@@ -1,6 +1,7 @@
 <html>
 
 <head>
+  <title>漫天的沙——知识库</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="漫天的沙知识库" />
@@ -10,13 +11,18 @@
   	    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <style type="text/css">
-    .col-three {
+    .col-three div {
       height: 100px;
       line-height: 100px;
       text-align: center;
-      font-weight: bold;
+      font-weight: 700;
       transition: all .2s ease;
       font-size: x-large;
+    }
+
+    .col-three:hover div {
+      font-size: 250%;
+      transform: rotate(360deg);
     }
 
     a {
@@ -27,16 +33,17 @@
     a:hover {
       color: #555555;
     }
-
-    .col-three:hover {
-      font-size: 250%;
-    }
   </style>
 </head>
 
 <body>
-  <section class="container">
-    <!-- Four Columns -->
+  <section class="container" style="padding-top: 2rem;">
+    <div class="row">
+      <div class="col-twelve" style="text-align: center;">
+        <h2>漫天的沙</h2>
+      </div>
+    </div>
+
     <div class="row">
       <div class="col-three" style="background-color:#AEDD81;">
         <div><a href="/network/">网络</a></div>
@@ -47,7 +54,7 @@
       <div class="col-three" style="background-color: #FC9D99;">
         <div><a href="/tool/">工具</a></div>
       </div>
-      <div class="col-three" style="background-color: #FCE0A6;">
+      <div class="col-three" style="background-color: #FEF889;">
         <div><a href="/java/">JAVA</a></div>
       </div>
     </div>
@@ -55,7 +62,7 @@
       <div class="col-three" style="background-color: #cb99c5;">
         <div><a href="/database/">数据库</a></div>
       </div>
-      <div class="col-three" style="background-color: #A095C4;">
+      <div class="col-three" style="background-color: #FCE0A6;">
         <div><a href="/algorithm/">算法</a></div>
       </div>
       <div class="col-three" style="background-color: #6EC3C9;">
