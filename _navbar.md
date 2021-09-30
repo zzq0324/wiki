@@ -1,7 +1,0 @@
-* [网络](/network/)
-* [操作系统](/os/)
-* [工具](/tool/)
-* [Java](/java/)
-* [数据库](/database/)
-* [算法](/algorithm/)
-* [架构](/architecture/)
